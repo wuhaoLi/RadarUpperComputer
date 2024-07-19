@@ -5,6 +5,6 @@ The upper computer of Continental-ARS548 was developed using C++ based on ubuntu
 
 The upper computer of NANORADAR-SR75 was developed using C++ based on ubuntu18.04(or 20.04) and ros-melodic(noetic), the implemented functions include CAnFD data reception, parsing, and visualization display of moving Objects.
 
-The upper computer of NANORADAR-SR75 was developed using PY based on ubuntu20.04, the implemented functions include UART data reception, parsing, and output of the object's distance to be measured.
+The upper computer of TI-IWR6843ISK was developed using PY based on ubuntu20.04, the implemented functions include UART data reception, parsing, and output of the object's distance to be measured.
 
 If you have any technical questions, please feel free to add WeChat（854572796） for communication
