@@ -1,0 +1,9 @@
+<launch>
+    <node name="canfd_data_rx" pkg="ros_can"
+          type="roscan" output="screen"/>
+    <!--<node name="filter_v" pkg="ros_can"
+          type="object" output="screen"/>-->
+    <arg name="rviz_config" default="/home/pc/radar/SR75/CANFD/rviz/default.rviz"/>  
+    <node name="rviz" pkg="rviz" type="rviz" args="-d $(arg rviz_config)" required="true" output="screen"/>  
+</launch>
+<!--name节点名　pkg功能包名　type可执行文件名-->
